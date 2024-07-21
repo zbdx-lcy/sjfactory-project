@@ -1,0 +1,170 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login_register/login_register",
+			"style": {
+				// "navigationBarTitleText": "",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path" : "pages/login_register/register",
+			"style" : 
+			{ 
+				// "navigationBarTitleText" : "",
+				// "enablePullDownRefresh" : false
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mainpage/mainpage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "首页",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/factorymanage/facmanage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "工人管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/AI/AI",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI咨询",
+				"enablePullDownRefresh" : false
+				
+			}
+		},
+		{
+			"path" : "pages/factorymanage/addfactory",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加工人信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/shajiData/sjData",
+			"style" : 
+			{
+				"navigationBarTitleText" : "沙棘数据",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/video/video",
+			"style" : 
+			{
+				"navigationBarTitleText" : "实时视频",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/shajiData/addsjData",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加沙棘数据",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moneyMage/moneyMage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "财务数据",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moneyMage/addMoneyMage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加财务数据",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/productData/prodata",
+			"style" : 
+			{
+				"navigationBarTitleText" : "产品数据",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/productData/addproData",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加产品数据",
+				"enablePullDownRefresh" : false
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F1F1F1",
+		"backgroundColor": "#F1F1F1"
+	},
+
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": " #000000",
+		"selectedColor": "#fb9f28",
+		"backgroundColor": "#fff",
+		"fontSize": "13px",
+		"height": "65rpx",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/mainpage/mainpage",
+				"iconPath": "/static/sy.png",
+				"selectedIconPath": "/static/syl.png"
+			},
+			{
+				"text": "工人管理",
+				"pagePath": "pages/factorymanage/facmanage",
+				"iconPath": "/static/gl.png",
+				"selectedIconPath": "/static/gll.png"
+			},
+			{
+				"text": "AI咨询",
+				"pagePath": "pages/AI/AI",
+				"iconPath": "/static/zxzx.png",
+				"selectedIconPath": "/static/zxzxl.png"
+			},
+			{
+				"text": "我的",
+				"pagePath" : "pages/my/my",
+				"iconPath" : "/static/wdwd.png",
+				"selectedIconPath" : "/static/wdwdl.png"
+			}
+		]
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "hash": "d1340fbc",
+  "browserHash": "d61df2c1",
+  "optimized": {
+    "chart.js/auto": {
+      "src": "../../node_modules/chart.js/auto/auto.js",
+      "file": "chart__js_auto.js",
+      "fileHash": "8da99d53",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

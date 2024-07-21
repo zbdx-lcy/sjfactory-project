@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.4",
+    "chart.js": "^4.4.2",
+    "echarts": "^5.5.0",
+    "vue-chartjs": "^5.3.0"
+  }
+}
